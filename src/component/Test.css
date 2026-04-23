@@ -1,0 +1,43 @@
+.testContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.info {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.testQuestion {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.option {
+  display: block;
+  margin: 6px 0;
+}
+
+.submitBtn {
+  background: #4a63f2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: #3649c9;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+  margin-top: 20px;
+}

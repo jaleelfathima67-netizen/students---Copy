@@ -1,0 +1,66 @@
+.dailyPlanContainer {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.totalTime {
+  background: #eef3ff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.planList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.planCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.planCard h3 {
+  margin: 0;
+  color: #333;
+}
+
+.topic {
+  color: #666;
+  margin: 10px 0;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.time {
+  font-weight: bold;
+  color: #4a63f2;
+}
+
+.doneBtn {
+  background: #4a63f2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.doneBtn:hover {
+  background: #3649c9;
+}

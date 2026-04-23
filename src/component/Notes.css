@@ -1,0 +1,88 @@
+
+.notes-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.notes-subtopic-card {
+  background: white;
+  border-radius: 16px;
+  border: 1.5px solid #edf2f7;
+  box-shadow: 0 4px 16px -4px rgba(74, 99, 242, 0.09);
+  overflow: hidden;
+  animation: fadeInRow 0.4s ease forwards;
+  opacity: 0;
+}
+
+.notes-subtopic-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #f8faff 0%, #eef3ff 100%);
+  border-bottom: 1px solid #edf2f7;
+}
+
+.notes-step-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4a63f2, #9f7aea);
+  color: white;
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.notes-subtopic-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2d3748;
+  flex: 1;
+}
+
+.notes-duration-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4a63f2;
+  background: #eef3ff;
+  padding: 3px 12px;
+  border-radius: 20px;
+}
+
+.notes-subtopic-body {
+  padding: 20px 24px;
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.85;
+}
+
+
+.notes-full-section {
+  background: white;
+  border-radius: 16px;
+  border: 1.5px solid #e2e8f0;
+  padding: 28px 32px;
+  margin-top: 10px;
+}
+
+.notes-full-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 16px;
+}
+
+.notes-full-text {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.85;
+  margin: 0;
+}

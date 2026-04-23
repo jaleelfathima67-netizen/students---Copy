@@ -1,0 +1,156 @@
+.rank-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.rank-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.rank-header-icon {
+  font-size: 3.5rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 4px 10px rgba(255, 204, 0, 0.4));
+  animation: bounce 2s infinite;
+}
+
+.rank-header h2 {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.rank-header p {
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+.rank-table-wrapper {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rank-table th {
+  background: #f7fafc;
+  padding: 20px;
+  text-align: left;
+  color: #4a5568;
+  font-weight: 600;
+  border-bottom: 2px solid #edf2f7;
+}
+
+.rank-row {
+  transition: all 0.3s ease;
+}
+
+.rank-row:hover {
+  background: #f0f4ff;
+  transform: scale(1.01);
+}
+
+.rank-row td {
+  padding: 20px;
+  border-bottom: 1px solid #edf2f7;
+  color: #2d3748;
+}
+
+.rank-td-icon {
+  width: 80px;
+  text-align: center;
+}
+
+.rank-icon {
+  font-size: 1.5rem;
+}
+
+.crown {
+  color: #ffcc00;
+}
+
+.silver {
+  color: #a0aec0;
+}
+
+.bronze {
+  color: #ed8936;
+}
+
+.rank-number {
+  font-weight: bold;
+  color: #a0aec0;
+  font-size: 1.1rem;
+}
+
+.rank-td-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.rank-td-grade {
+  color: #718096;
+}
+
+.score-badge {
+  background: #4a63f2;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(74, 99, 242, 0.3);
+}
+
+.rank-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.rank-empty {
+  text-align: center;
+  padding: 40px;
+  color: #a0aec0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
